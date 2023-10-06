@@ -20,7 +20,8 @@ You can install this component via npm:
 
 # Include the Modal componentn in your JSX
 
-```         <Table itemsList={list}
+```         
+            <Table itemsList={list}
                 fields={fields}
                 //Il est possible de customizer via des props
             />
