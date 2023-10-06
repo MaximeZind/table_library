@@ -4,6 +4,8 @@ The React Table Component is a versatile and customizable table component for di
 
 ## Prerequisites
 
+- [NodeJS (**version v20.0.0 or higher**)](https://nodejs.org/en/)
+- [npm (**v9.6.4 or higher**)](https://www.npmjs.com/)
 - [react (**version ^18.2.0 or higher**)](https://react.dev/)
 
 ## Installation
