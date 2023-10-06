@@ -172,14 +172,7 @@ function Table({ itemsList, fields, allowEditDelete, handleBinClick, handlePenci
 
 Table.propTypes = {
     itemsList: PropTypes.arrayOf(
-        PropTypes.oneOfType([
-            PropTypes.shape({
-                name: PropTypes.string.isRequired,
-                abbreviation: PropTypes.string,
-            }),
-            PropTypes.number,
-            PropTypes.string,
-        ])
+        PropTypes.object,
     ).isRequired,
     fields: PropTypes.arrayOf(
         PropTypes.string
